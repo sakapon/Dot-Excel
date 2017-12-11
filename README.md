@@ -30,11 +30,9 @@ Excel ファイルの最初のシートを方眼紙に設定します。
 #### 2.2 コマンドラインでの操作
 ##### 構文
 ```
-    dotexcel "file1" ["file2" ...] [/format:png](jpg_jpeg_bmp_gif_tif_tiff_ico)
-```
+    dotexcel "file1" ["file2" ...] [/format:png|jpg|jpeg|bmp|gif|tif|tiff|ico]
 または
-```
-    dotexcel toimage "file1" ["file2" ...] [/format:png](jpg_jpeg_bmp_gif_tif_tiff_ico)
+    dotexcel toimage "file1" ["file2" ...] [/format:png|jpg|jpeg|bmp|gif|tif|tiff|ico]
 ```
 
 複数の Excel ファイルを指定できます。絶対パス・相対パスのどちらでもかまいません。  
@@ -54,7 +52,7 @@ Excel ファイルの最初のシートを方眼紙に設定します。
 * 画像ファイルを Excel 方眼紙のドット絵に変換する。
 
 ##### 参照
-* [Excel 方眼紙でドット絵を描く](http://sakapon.wordpress.com/2013/04/15/dotexcel/)
+* [Excel 方眼紙でドット絵を描く](https://sakapon.wordpress.com/2013/04/15/dotexcel/)
 
 ##### ライブラリなど
 Dot Excel は、次のライブラリを利用しています。
